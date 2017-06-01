@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "type": "EventSource",
+      "sources": [
+        { "providerName": "Supplylogix-EventFlow-Tester" }
+      ]
+    }
+  ],
+  "filters": [
+
+  ],
+  "outputs": [
+    { "type": "StdOutput" },
+    {
+      "type": "ApplicationInsights",
+      "instrumentationKey": "YOUR KEY HERE"
+    }
+  ]
+}
